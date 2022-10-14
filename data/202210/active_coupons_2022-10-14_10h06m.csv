@@ -1,6 +1,5 @@
 "course_id","course_name","coupon_type","maximum_redemptions","coupon_code","start_date_time","end_date_time","currency","discount_price","course_coupon_url"
 4392922,"HashiCorp Certified - Terraform Associate 考试完全指南2022","best_price","unlimited","OCT-1111","2022-10-15 00:00 PDT","2022-10-20 00:00 PDT","USD",9.99,"https://www.udemy.com/course/terraform-basic/?couponCode=OCT-1111"
-4392922,"HashiCorp Certified - Terraform Associate 考试完全指南2022","free_targeted",100,"CHINA-FREE","2022-10-04 23:54 PDT","2022-11-04 23:54 PDT","USD",0.00,"https://www.udemy.com/course/terraform-basic/?couponCode=CHINA-FREE"
 3731444,"Vagrant从入门到精通","best_price","unlimited","OCT-1112","2022-10-15 00:00 PDT","2022-10-20 00:00 PDT","USD",9.99,"https://www.udemy.com/course/vagrant-zh/?couponCode=OCT-1112"
 3418642,"Prometheus and Grafana for Monitoring and Alerting监控和报警系统","best_price","unlimited","OCT-1113","2022-10-15 00:00 PDT","2022-10-20 00:00 PDT","USD",9.99,"https://www.udemy.com/course/telegraf-prometheus-grafana-cn/?couponCode=OCT-1113"
 2321788,"Django 2  Web开发入门与实战","best_price","unlimited","OCT-1114","2022-10-15 00:00 PDT","2022-10-20 00:00 PDT","EUR",9.99,"https://www.udemy.com/course/django-2-web/?couponCode=OCT-1114"
