@@ -60,8 +60,6 @@ from jinja2 import Template
 import json
 
 
-
-
 with open('course.json') as f:
     course_list = json.load(f)
     start = 1111
@@ -72,5 +70,9 @@ with open('course.json') as f:
         start += 1
 with open('templates/README-coupon.md.j2') as f:
     template = Template(f.read())
-with open('README1.md', 'w') as f:
+with open('profile/README.md', 'w') as f:
     f.write(template.render(course_list=course_list))
+
+with open('templates/udemy.j2') as f:
+    template = Template(f.read())
+    print(template.render(course_list=course_list))
