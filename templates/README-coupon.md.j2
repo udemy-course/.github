@@ -8,8 +8,8 @@
 
 https://www.worldtimebuddy.com/ 有效期5天
 
-|课程名称  |  优惠开始时间    | 优惠结束时间      |购买链接      |
+|课程名称  |  优惠开始时间    | 优惠结束时间      | 购买链接      |
 |--------|----------------|-----------------|-------------|
 {%- for course in course_list %} 
-|{{course.course_name}}|{{course.start_time}}|{{course.end_time}}|{{course.link}}|
+|{{course.course_name}}|{{course.start_time}}|{{course.end_time}}|[购买链接]({{course.link_with_coupon}})|
 {%- endfor %}
