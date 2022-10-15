@@ -66,8 +66,8 @@ with open('course.json') as f:
     course_list = json.load(f)
     start = 1111
     for course in course_list:
-        course['start_time'] = "2022-10-15 00:00 PDT"
-        course['end_time'] = "2022-10-20 23:59 PDT"
+        course['start_time'] = "2022-10-15 00:00"
+        course['end_time'] = "2022-10-20 23:59"
         course["link_with_coupon"] = f"{course['course_url']}/?couponCode=OCT-{start}"
         start += 1
 with open('templates/README-coupon.md.j2') as f:
