@@ -1,0 +1,7 @@
+# 课程购买链接汇总
+
+|课程名称  |   购买链接      |
+|--------|-------------|
+{%- for course in course_list %} 
+|{{course.course_name}}|[购买链接]({{course.link_with_referral}})|
+{%- endfor %}
