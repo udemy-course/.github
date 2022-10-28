@@ -1,5 +1,7 @@
 # 课程购买链接汇总
 
+大家可以收藏此页面。 我每个月会推出1-2次打折活动，活动期间每门课程之需要 **9.9** 美元， 暂定时间为每月的15号。
+
 |课程名称  |   购买链接      |
 |--------|-------------| 
 |HashiCorp Certified - Terraform Associate 考试完全指南2022|[购买链接](https://www.udemy.com/course/terraform-basic/?referralCode=CC6DE2F25411B0B807AA)| 
