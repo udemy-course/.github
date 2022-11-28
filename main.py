@@ -64,16 +64,16 @@ with open('course.json') as f:
     course_list = json.load(f)
     start = 1111
     for course in course_list:
-        course['start_time'] = "2022-10-15 00:00"
-        course['end_time'] = "2022-10-20 23:59"
-        course["link_with_coupon"] = f"{course['course_url']}/?couponCode=OCT-{start}"
+        course['start_time'] = "2022-11-28 00:00"
+        course['end_time'] = "2022-12-03 23:59"
+        course["link_with_coupon"] = f"{course['course_url']}/?couponCode=NOV-{start}"
         course["link_with_referral"] = f"{course['course_url']}/?referralCode={course['referralCode']}"
         start += 1
-with open('templates/README.md.j2') as f:
+with open('templates/README-coupon.md.j2') as f:
     template = Template(f.read())
 with open('profile/README.md', 'w') as f:
     f.write(template.render(course_list=course_list))
 
-# with open('templates/udemy.j2') as f:
-#     template = Template(f.read())
-#     print(template.render(course_list=course_list))
+with open('templates/udemy.j2') as f:
+    template = Template(f.read())
+    print(template.render(course_list=course_list))
