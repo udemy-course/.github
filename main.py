@@ -58,15 +58,23 @@
 
 from jinja2 import Template
 import json
+import datetime
+import pytz
+
+
+def get_start_time():
+    pacific = pytz.timezone('US/Pacific')
+    now = datetime.datetime.now(pacific)
+    five_days_later = now + datetime.timedelta(days=5)
+    return now.strftime('%Y-%m-%d %H:%M'), five_days_later.strftime('%Y-%m-%d %H:%M') 
 
 
 with open('course.json') as f:
     course_list = json.load(f)
     start = 1111
     for course in course_list:
-        course['start_time'] = "2022-11-28 00:00"
-        course['end_time'] = "2022-12-03 23:59"
-        course["link_with_coupon"] = f"{course['course_url']}/?couponCode=NOV-{start}"
+        course['start_time'],  course['end_time'] = get_start_time()
+        course["link_with_coupon"] = f"{course['course_url']}/?couponCode=DCE-{start}"
         course["link_with_referral"] = f"{course['course_url']}/?referralCode={course['referralCode']}"
         start += 1
 with open('templates/README-coupon.md.j2') as f:
