@@ -44,8 +44,6 @@
 #     print(month_name)
 
 
-
-
 # from jinja2 import Template
 
 # name = 'Peter'
@@ -66,7 +64,7 @@ def get_start_time():
     pacific = pytz.timezone('US/Pacific')
     now = datetime.datetime.now(pacific)
     five_days_later = now + datetime.timedelta(days=5)
-    return now.strftime('%Y-%m-%d %H:%M'), five_days_later.strftime('%Y-%m-%d %H:%M') 
+    return now.strftime('%Y-%m-%d %H:%M'), five_days_later.strftime('%Y-%m-%d %H:%M')
 
 
 with open('course.json') as f:
@@ -77,7 +75,7 @@ with open('course.json') as f:
         course["link_with_coupon"] = f"{course['course_url']}/?couponCode=DCE-{start}"
         course["link_with_referral"] = f"{course['course_url']}/?referralCode={course['referralCode']}"
         start += 1
-with open('templates/README-coupon.md.j2') as f:
+with open('templates/README.md.j2') as f:
     template = Template(f.read())
 with open('profile/README.md', 'w') as f:
     f.write(template.render(course_list=course_list))
