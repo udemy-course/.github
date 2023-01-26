@@ -11,17 +11,6 @@ from jinja2 import Template
 import pytz
 
 
-# def get_start_time():
-#     """
-#     get start time in US pacific time zone
-#     """
-#     pacific = pytz.timezone('US/Pacific')
-#     now = datetime.datetime.now(pacific)
-#     five_days_later = now + datetime.timedelta(days=5)
-#     month_in_short = now.strftime('%b')
-#     return now.strftime('%Y-%m-%d %H:%M'), five_days_later.strftime('%Y-%m-%d %H:%M')
-
-
 # with open('course.json', "r") as f:
 #     course_list = json.load(f)
 #     start = 1111
