@@ -49,7 +49,7 @@ def main(promotion=True):
             writer.writerow(
                 ['course_id', 'coupon_type', 'coupon_code'])
             for course in course_list:
-                coupon_code = f"{year}-{month_in_short}-{course['course_id']}-1".upper(
+                coupon_code = f"{year}-{month_in_short}{now.strftime('%d')}-{course['course_id']}".upper(
                 )
                 writer.writerow(
                     [course['course_id'],
