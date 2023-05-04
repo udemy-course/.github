@@ -1,5 +1,16 @@
 [
     {
+        "course_id": 5221876,
+        "coupon_type": "best_price",
+        "coupon_code": "",
+        "start_date": "",
+        "start_time": "",
+        "course_name": "数据结构和算法 Data Structures and Algorithms",
+        "course_url": "https://www.udemy.com/course/data-structures-and-algorithms-py",
+        "referralCode": "2FE5BA94D9B710AFF098",
+        "couponCode": ""
+    },
+    {
         "course_id": 4392922,
         "coupon_type": "best_price",
         "coupon_code": "",
