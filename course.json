@@ -1,12 +1,23 @@
 [
     {
+        "course_id": 5727398,
+        "coupon_type": "best_price",
+        "coupon_code": "",
+        "start_date": "",
+        "start_time": "",
+        "course_name": "Python Typer快速入门: 创建一个漂亮的CLI App",
+        "course_url": "https://www.udemy.com/course/python-typer-cli",
+        "referralCode": "0B55E27CFB8248DE7FF7",
+        "couponCode": ""
+    },
+    {
         "course_id": 5316788,
         "coupon_type": "best_price",
         "coupon_code": "",
         "start_date": "",
         "start_time": "",
         "course_name": "RedHat红帽Linux系统管理员认证(RHCSA-EX200)",
-        "course_url": "https://www.udemy.com/course/rhcsa-ex200/",
+        "course_url": "https://www.udemy.com/course/rhcsa-ex200",
         "referralCode": "C47C674CF4802073C12A",
         "couponCode": ""
     },
@@ -17,7 +28,7 @@
         "start_date": "",
         "start_time": "",
         "course_name": "FastAPI 快速入门",
-        "course_url": "https://www.udemy.com/course/fastapi-start/",
+        "course_url": "https://www.udemy.com/course/fastapi-start",
         "referralCode": "40536B423E4164E45F8A",
         "couponCode": ""
     },

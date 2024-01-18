@@ -4,8 +4,9 @@
 
 |课程名称  |   购买链接      |
 |--------|-------------| 
-|RedHat红帽Linux系统管理员认证(RHCSA-EX200)|[购买链接](https://www.udemy.com/course/rhcsa-ex200//?couponCode=2024-JAN18-5316788)| 
-|FastAPI 快速入门|[购买链接](https://www.udemy.com/course/fastapi-start//?couponCode=2024-JAN18-5528884)| 
+|Python Typer快速入门: 创建一个漂亮的CLI App|[购买链接](https://www.udemy.com/course/python-typer-cli/?couponCode=DAC8D8E938BC6088D909)| 
+|RedHat红帽Linux系统管理员认证(RHCSA-EX200)|[购买链接](https://www.udemy.com/course/rhcsa-ex200/?couponCode=2024-JAN18-5316788)| 
+|FastAPI 快速入门|[购买链接](https://www.udemy.com/course/fastapi-start/?couponCode=2024-JAN18-5528884)| 
 |数据结构和算法 Data Structures and Algorithms|[购买链接](https://www.udemy.com/course/data-structures-and-algorithms-py/?couponCode=2024-JAN18-5221876)| 
 |HashiCorp Certified - Terraform Associate 考试完全指南2022|[购买链接](https://www.udemy.com/course/terraform-basic/?couponCode=2024-JAN18-4392922)| 
 |Vagrant从入门到精通|[购买链接](https://www.udemy.com/course/vagrant-zh/?couponCode=2024-JAN18-3731444)| 
