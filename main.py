@@ -53,7 +53,7 @@ def main(promotion=True):
                 )
                 writer.writerow(
                     [course['course_id'],
-                     'best_price',
+                     course['coupon_type'],
                      coupon_code
                      ]
                 )
