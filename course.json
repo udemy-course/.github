@@ -229,5 +229,16 @@
         "course_url": "https://www.udemy.com/course/docker-china",
         "referralCode": "317AFE518BCFEF7FC897",
         "couponCode": ""
+    },
+    {
+        "course_id": 4947790,
+        "coupon_type": "best_price",
+        "coupon_code": "",
+        "start_date": "",
+        "start_time": "",
+        "course_name": "GitHub Actions 入门与进阶",
+        "course_url": "https://www.udemy.com/course/github-actions-zh",
+        "referralCode": "317AFE518BCFEF7FC897",
+        "couponCode": ""
     }
 ]
